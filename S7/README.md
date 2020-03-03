@@ -1,5 +1,5 @@
 ### **Session-7 Assignment**
-I. Make the [code](https://colab.research.google.com/drive/1qlewMtxcAJT6fIJdmMh8pSf2e-dh51Rw) Modular. Points to ponder:
+I. Make the [Reference Code](https://colab.research.google.com/drive/1qlewMtxcAJT6fIJdmMh8pSf2e-dh51Rw) Modular. Points to ponder:
 1. Use GPU - Data and Model porting to GPU during training
 2. Separation of Concern - load modules from different files
 3. Easy to understand Program flow - Call network artifacts in main program
