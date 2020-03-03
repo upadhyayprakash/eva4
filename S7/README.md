@@ -16,6 +16,6 @@ achieve 80% accuracy, as many epochs as you want. Total Params to be less than 1
 7. upload to Github
 
 
-#### **RESULT**
+### **RESULT**
 
 Notebook Link: [Notebook](https://github.com/upadhyayprakash/eva4/blob/master/S7/EVA4_Session_7_CIFAR10_Modular.ipynb)
