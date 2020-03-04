@@ -17,13 +17,13 @@ achieve 80% accuracy, as many epochs as you want. Total Params to be less than 1
 
 
 ### **RESULT**
-1. # of Parameters Used: 341,376
+1. No. of Parameters Used: 341,376
 2. Used Dilated Convolution? YES
 3. Used Depth-wise Separable Convolution? YES
 4. Used GAP? YES
 5. Ported the Model to GPU
 6. Module-based code re-factoring
-7. # of Epochs: 30
+7. No. of Epochs: 30
 8. Accuracy(CIFAR10 with 10 Epochs and 341376 parameters): 
 
 Notebook Link: [Notebook](https://github.com/upadhyayprakash/eva4/blob/master/S7/EVA4_Session_7_CIFAR10_Modular.ipynb)
