@@ -20,9 +20,13 @@ GitHub Source: https://github.com/upadhyayprakash/eva4/tree/master/S8
 
 #### **Summary**
 
-| Metric          | Values         |
-| --------------- | -------------- |
-| Network Arch.   | **RESNET-18**  |
-| # of Epochs     | **20**         |
-| # of Parameters | **11,173,962** |
-| Final Accuracy  | **89.290%**    |
+| Metric                | Values         |
+| --------------------- | -------------- |
+| ***Network Arch.***   | **RESNET-18**  |
+| ***# of Epochs***     | **20**         |
+| ***# of Parameters*** | **11,173,962** |
+| ***Final Accuracy***  | **89.290%**    |
+
+#### **Code Structure**
+- **modules:** contains the python modules used during model training, testing and visualizations
+- **images:** contains charts/graphs image output of the model training/validation
