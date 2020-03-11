@@ -35,4 +35,8 @@ def visualize_classwise_accuracy(classes, class_accuracy):
 	plt.ylabel('Accuracy')
 	plt.title('Object Classes')
 
+	# # Plot values of bars at their top
+	# for i, v in enumerate(class_accuracy):
+	# 	plt.text(v + 3, i + .25, str(v), color='blue', fontweight='bold')
+
 	plt.show()
