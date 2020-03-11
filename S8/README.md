@@ -15,5 +15,14 @@
 
 #### **RESULT**
 GitHub Source: https://github.com/upadhyayprakash/eva4/tree/master/S8
-- Accuracy after 17 Epochs: 84.17%
-- Basic Augmentation Used: Random Horizontal Flip, Random Crop
+- Basic Augmentation Used: Random Horizontal Flip, RandomErasing
+
+
+#### **Summary**
+
+| Metric          | Values         |
+| --------------- | -------------- |
+| Network Arch.   | **RESNET-18**  |
+| # of Epochs     | **20**         |
+| # of Parameters | **11,173,962** |
+| Final Accuracy  | **89.290%**    |
