@@ -7,7 +7,7 @@
 5. Once done finish S8-Assignment-Solution. 
  
 
-### **These are the questions in S8-A-S**
+#### **Tasks for S8-Assignment**
 
 1. Share the link to your GitHub S8 code. Please make sure it is public. If your code is not modular or structured into different functional files, you will get 0 for the whole submission.
 2. What is the final accuracy of your model
