@@ -1,4 +1,4 @@
-# Session 10 Summary:
+# Session 10 Notes:
 * Learning Rate(alpha):
 	- Relationship between Loss and Wieght changes.
 	- Not using Learning Rate means dangling of Loss function.
