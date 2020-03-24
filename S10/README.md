@@ -54,37 +54,37 @@
 		1. Less memory requirement as only 1st momentum is needed.
 		2. Better Regularization
 
-# Completely Different Approach: "Don't decay the Learning Rate, Increase the Batch Size!"
-	* Both of them reduce the Loss function, but 2nd is memory intensive.
-	* Training should start from Large Learning rate, as our randomly generated weights will be far from Optimal value.
-	* We then reduce the learning rate during training to do smaller updates to our weights
+* **Completely Different Approach**: *"Don't decay the Learning Rate, Increase the Batch Size!"*
+	- Both of them reduce the Loss function, but 2nd is memory intensive.
+	- Training should start from Large Learning rate, as our randomly generated weights will be far from Optimal value.
+	- We then reduce the learning rate during training to do smaller updates to our weights
 
-# Cyclic Learning Rate(Beginning): Leslie N. Smith(Paper: Cyclical Learning Rates for Training Neural Networks - https://arxiv.org/abs/1506.01186)
+* **Cyclic Learning Rate**(Beginning): **Leslie N. Smith**(Paper: Cyclical Learning Rates for Training Neural Networks - https://arxiv.org/abs/1506.01186)
 	* Trick is to train the network(Only 1 epoch containing MULTIPLE Batches) starting from Low LR and increasing it exponentially.
 	* At a point where the LOSS function reduces drastically, we note that LR value.
 	* And then we can use that value of LR as our starting Learning Rate.
 	* We can also use a slightly smaller learning rate that falls before the optimal learning rate. This is to WARM-UP our network.
 
-	### LEARN: What is OneCyclePolicy?
+	### LEARN: What is **OneCyclePolicy**?
 
-# Tasks:
-	* Write custom method to identify the Learning Rate "Plateau"
-	* ReduceLROnPlateau(build-in for Keras)
-	* Also for PyTorch :D
-	* It's called using, "torch.optim.lr_scheduler.ReduceLROnPlateau"
+* Tasks:
+	- Write custom method to identify the Learning Rate "Plateau"
+	- ReduceLROnPlateau(build-in for Keras)
+	- Also for PyTorch :D
+	- It's called using, "torch.optim.lr_scheduler.ReduceLROnPlateau"
 
-Assignment: 
+## Assignment: 
 
-	* Pick your last code
-	* Make sure  to Add CutOut to your code. It should come from your transformations (albumentations)
-	* Use this repo: https://github.com/davidtvs/pytorch-lr-finder (Links to an external site.) 
-	* Move LR Finder code to your modules
-	* Implement LR Finder (for SGD, not for ADAM)
-	* Implement ReduceLROnPlatea: https://pytorch.org/docs/stable/optim.html#torch.optim.lr_scheduler.ReduceLROnPlateau (Links to an external site.)
-	* Find best LR to train your model
-	* Use SDG with Momentum
-	* Train for 50 Epochs. 
-	* Show Training and Test Accuracy curves
-	* Target 88% Accuracy.
-	* Run GradCAM on the any 25 misclassified images. Make sure you mention what is the prediction and what was the ground truth label.
-	* Submit
+- Pick your last code
+- Make sure  to Add CutOut to your code. It should come from your transformations (albumentations)
+- Use this repo: https://github.com/davidtvs/pytorch-lr-finder (Links to an external site.) 
+- Move LR Finder code to your modules
+- Implement LR Finder (for SGD, not for ADAM)
+- Implement ReduceLROnPlatea: https://pytorch.org/docs/stable/optim.html#torch.optim.lr_scheduler.ReduceLROnPlateau (Links to an external site.)
+- Find best LR to train your model
+- Use SDG with Momentum
+- Train for 50 Epochs. 
+- Show Training and Test Accuracy curves
+- Target 88% Accuracy.
+- Run GradCAM on the any 25 misclassified images. Make sure you mention what is the prediction and what was the ground truth label.
+- Submit
