@@ -38,11 +38,11 @@
 	- Using the momentum of LOSS function itself, we'll figure out the effect of training on LOSS function(whether it's increasing or reducing), based on which the WEIGHT update equation is also changed.
 	- It has a g(t) function for that
 
-# Summary:
-	* SGD uses fixed Learning Rate(alpha) for each Parameter
-	* RMSProps uses different LR(alpha) for every single paramter, by using the momentum(variation is value) of the weights and figure out the current momentum based on it.(if it should move faster OR slower)
-	* Adam works on top of RMSProps and calculates the momentum for LOSS function as well.
-	* SGD Limitation: SGD can only be used for Object Detection and Object Recognition. It can't be used when,
+* Summary:
+	- SGD uses fixed Learning Rate(alpha) for each Parameter
+	- RMSProps uses different LR(alpha) for every single paramter, by using the momentum(variation is value) of the weights and figure out the current momentum based on it.(if it should move faster OR slower)
+	- Adam works on top of RMSProps and calculates the momentum for LOSS function as well.
+	- SGD Limitation: SGD can only be used for Object Detection and Object Recognition. It can't be used when,
 		1. Less data samples for training
 		2. Using Transfer Learning(rather Adam etc. is used)
 		3. Reinforcement Learning(Adam)
@@ -50,7 +50,7 @@
 		5. GANs(Adam is preferred)
 		6. Q-Learning with Function approximation
 
-	* SGD Benefits:
+	- SGD Benefits:
 		1. Less memory requirement as only 1st momentum is needed.
 		2. Better Regularization
 
