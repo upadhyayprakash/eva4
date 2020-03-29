@@ -23,7 +23,7 @@
 > I understand that model is copied batch size times and each copy takes one image,calculates weights and corrects them using backprop.
 
 
-> hi Rohan does it make sense to use LR scheduling with adaptive LR algorithms? or should we stick to just ReduceLROnPlateau?
+> hi sir does it make sense to use LR scheduling with adaptive LR algorithms? or should we stick to just ReduceLROnPlateau?
 
 
 > need some clarification about actual effect of L1 and L2
@@ -71,7 +71,7 @@
 > is it okay to use lr finder to find 4-5 lrs, they would be fluctuating, and taking the mean of those lrs and use it
 
 
-> @Krishna Priyanka Bh Watch fastai explanation after rohan sir's explanation on pixel shuffle you will be able to get a good grasp of the concept
+> Watch fastai explanation after sir's explanation on pixel shuffle you will be able to get a good grasp of the concept
 
 
 > SGD has other parameter, weight decay & dampening. Where these should be used?
@@ -122,7 +122,7 @@
 > in CIFAR10, even though model test accuracy is around 92+% but for few classes accuracy is around 80%, any techniques to improve accuracy for non-preforming classes
 
 
-> @birender panwar in Keras there is a way to penalize or increase the loss for specific classes. In pytorch not very though
+> in Keras there is a way to penalize or increase the loss for specific classes. In pytorch not very though
 
 
 > In practices, we just define train and testing loader. How do we get validation loader? What is the best practices of creating validation set?
