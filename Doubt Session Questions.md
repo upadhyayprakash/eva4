@@ -1,9 +1,8 @@
-* The Admin
-- Good Morning
+###  The Admin
+​​> Good Morning
 
-
-Sujit Ojha
-​For GradCAM, we have to access layers. And I saw two ways of doing it. Using hook and other way. Can you please elaborate on hook?
+### Sujit Ojha
+​> For GradCAM, we have to access layers. And I saw two ways of doing it. Using hook and other way. Can you please elaborate on hook?
 
 Satyajit Ghana
 ​a quick refresher on how grad cam works ? using that diagram from grad cam paper
