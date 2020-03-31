@@ -75,9 +75,11 @@
 
 ## Assignment Solution:
 - Train / Test Accuracy Graph
+
 ![Alt Text](https://github.com/upadhyayprakash/eva4/blob/master/S10/train_test_accuracy.jpeg "Train/Test Accuracy Graph")
 
 - GradCAM & GradCAM++ for Mis-classified Samples
+
 ![Alt Text](https://github.com/upadhyayprakash/eva4/blob/master/S10/output_misclassified_gradcam.jpeg "GradCAM & GradCAM++ for Mis-classified Samples")
 
 ## Assignment: 
