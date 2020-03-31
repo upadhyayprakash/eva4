@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
+import os
 
 font = {'size'   : 12}
 plt.rc('font', **font)
@@ -52,3 +53,10 @@ def visualize_train_test_acc(train_acc, val_acc):
 	axs.plot(val_acc, label="Test Acc.")
 
 	axs.legend()
+
+	# Storing Image as output
+	output_dir = '/home/prakash/Prakash/EVA4/Session-10/Notebooks'
+	os.makedirs(output_dir, exist_ok=True)
+	output_name = 'train_test_accuracy.jpeg'
+	output_path = os.path.join(output_dir, output_name)
+	fig.savefig(output_path, bbox_inches="tight")
