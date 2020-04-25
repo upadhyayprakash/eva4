@@ -10,4 +10,4 @@
 ### Status
 - **Class Chosen**: bicycle
 - **GitHub Colab Notebook**: https://github.com/upadhyayprakash/eva4/blob/master/S13/Assignment-1/EVA4_Session_13_Assignment_1_YOLO_OpenCV.ipynb
-- Annotated Image Result(YOLO): 
+- Annotated Image Result(YOLO): https://github.com/upadhyayprakash/eva4/blob/master/S13/Assignments/Assignment-1/detected_bicycle.png
